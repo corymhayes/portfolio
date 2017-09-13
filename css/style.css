@@ -58,7 +58,7 @@ p{
 }
 
 .contact-info{
-  text-align: right;
+  text-align: left;
 }
 
 ul{
@@ -68,7 +68,7 @@ ul{
 
 li{
   list-style: none;
-  text-align: right;
+  text-align: left;
   line-height: 25px;
 }
 
