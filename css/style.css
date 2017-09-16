@@ -1,3 +1,40 @@
+/*
+  COLORS:
+    yellow - #ffcb05
+    grey - #333
+*/
+
+header{
+  background:
+    url("../images/header-bg.jpeg")
+    center center / cover
+    no-repeat
+    black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+h1{
+  font-family: 'museo-sans-rounded', sans-serif;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.name{
+  font-family: 'museo-sans-rounded', sans-serif;
+  font-weight: 900;
+  font-size: 8rem;
+  color: #ffcb05;
+}
+
+
+/*
+
 header, #skills, #portfolio, #contact{
   height: 100vh;
   display: flex;
@@ -112,4 +149,4 @@ address{
   li{
     text-align: left;
   }
-}
+}*/
