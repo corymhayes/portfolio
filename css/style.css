@@ -3,8 +3,23 @@
     yellow - #FADA28
     grey - #333
 */
+@keyframes fadeIn {
+  100% {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgba(250, 218, 40, 0.75);
+    color: #000; } }
+
+*, html {
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  padding: 0px;
+  margin: 0px; }
+
 .logo {
-  margin: 1rem 0px 0px 1rem;
+  margin: .5rem 0px 0px .5rem;
+  height: 3rem;
+  width: 3rem;
   position: absolute; }
 
 header {
@@ -12,23 +27,73 @@ header {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-  header p {
-    font-family: "museo-sans", sans-serif;
+  justify-content: center;
+  padding-left: 5rem; }
+  header .cta-intro h1,
+  header .cta-intro p {
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 0px;
+    padding: 0px;
+    color: #fff; }
+  header .cta-intro .highlight {
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FADA28;
+    max-width: fit-content; }
+  header .cta-intro h1 {
+    margin-bottom: 3rem; }
+  header .cta-intro p {
+    width: 60%;
+    font-size: 2rem;
     font-weight: 300;
-    font-size: 4rem;
-    color: #fff;
-    text-align: left;
-    line-height: 5rem; }
+    margin-bottom: 1rem; }
+    header .cta-intro p .highlight {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 900; }
+  header .cta-buttons {
+    display: flex; }
+    header .cta-buttons .first-button,
+    header .cta-buttons .second-button {
+      height: 2.5rem;
+      width: 7rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-family: "museo-sans", sans-serif;
+      font-size: .8rem;
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+      margin-right: 2rem;
+      box-sizing: border-box;
+      text-decoration: none; }
+      header .cta-buttons .first-button img,
+      header .cta-buttons .second-button img {
+        margin-right: .35rem;
+        height: 45%;
+        width: auto; }
+    header .cta-buttons .second-button {
+      width: 6.55rem; }
+      header .cta-buttons .second-button img {
+        margin-right: 0px;
+        margin-top: -5px;
+        height: 1.75rem; }
+    header .cta-buttons .first-button:hover,
+    header .cta-buttons .second-button:hover {
+      animation: 250ms fadeIn ease-in-out forwards; }
 
 .highlight, h2 {
   font-family: "museo-sans-rounded", sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #FADA28;
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  display: inline-block; }
 
 main {
   margin-top: 50px; }
@@ -93,20 +158,39 @@ main {
     font-weight: 500;
     text-align: right; }
 
+footer {
+  height: 5rem;
+  background-color: #FADA28;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer a {
+    color: #fff;
+    font-family: "museo-sans", sans-serif;
+    text-decoration: none; }
+  footer .footer-icons {
+    color: #fff;
+    margin: 0rem 1rem; }
+  footer img {
+    margin: 0rem 1rem; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .intro-text {
+    padding-left: 1rem; }
   .logo {
     width: 2rem;
     margin: .5rem 0 0 .5rem; }
-  header .intro-text {
-    padding-left: 1rem; }
-  header p {
-    font-size: 2rem;
-    line-height: 2.5rem; }
-  .highlight {
-    font-family: 'museo-sans-rounded', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-    color: #FADA28; }
+  header {
+    padding: 0px; }
+    header p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      width: 100%; }
+      header p .highlight {
+        font-family: 'museo-sans-rounded', sans-serif;
+        font-weight: 900;
+        font-size: 2rem;
+        color: #FADA28; }
   main {
     margin: 0px; }
   .container-mobile {

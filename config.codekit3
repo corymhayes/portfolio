@@ -23,6 +23,51 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/CoryHayesResume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CoryHayesResume.pdf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Socicon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Socicon.eot",
+		"oF": 0
+		},
+	"\/css\/fonts\/Socicon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/css\/fonts\/Socicon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/css\/fonts\/Socicon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Socicon.ttf",
+		"oF": 0
+		},
+	"\/css\/fonts\/Socicon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Socicon.woff",
+		"oF": 0
+		},
+	"\/css\/fonts\/Socicon.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/fonts\/Socicon.woff2",
+		"oF": 0
+		},
 	"\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -30,6 +75,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/normalize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/socicon-style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/socicon-style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -71,6 +126,17 @@
 		"iS": 651311,
 		"oA": 0,
 		"oAP": "\/images\/blog-site.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/email-1x.png": {
+		"ft": 32768,
+		"iS": 211,
+		"oA": 0,
+		"oAP": "\/images\/email-1x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -151,6 +217,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/linkedin-black.png": {
+		"ft": 32768,
+		"iS": 1631,
+		"oA": 0,
+		"oAP": "\/images\/linkedin-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/linkedin-white.png": {
+		"ft": 32768,
+		"iS": 1687,
+		"oA": 0,
+		"oAP": "\/images\/linkedin-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 1471,
@@ -183,14 +271,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/me.jpg": {
-		"ft": 16384,
-		"iS": 1151912,
+	"\/images\/paper-1x.png": {
+		"ft": 32768,
+		"iS": 143,
 		"oA": 0,
-		"oAP": "\/images\/me.jpg",
+		"oAP": "\/images\/paper-1x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/perfectly-perfect.png": {
