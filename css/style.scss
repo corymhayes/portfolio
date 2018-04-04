@@ -42,7 +42,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 5rem;
+  padding-left: 10rem;
 
 
   .cta-intro{
@@ -226,25 +226,47 @@ main{
 }
 
 footer{
-  height: 5rem;
-  background-color: $accent-color;
+  height: 10rem;
+  padding: 0 10rem;
+  background-color: rgba(0,0,0,.9);
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  font-family: $sans-font;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #fff;
 
   a{
     color: #fff;
     font-family: $sans-font;
+    font-weight: 100;
+    font-size: .75rem;
     text-decoration: none;
+    margin-bottom: .2rem;
+  }
+
+  .bottom-half{
+    margin-top: .25rem;
+  }
+
+  .bottom-half:last-child{
+    margin-top: .3rem;
+  }
+
+  img{
+    height: 1rem;
+    margin: 0rem 0.25rem 0rem 0rem;
   }
 
   .footer-icons{
     color: #fff;
-    margin: 0rem 1rem;
+    margin: 0rem .35rem 0rem .2rem;
   }
 
-  img{
-    margin: 0rem 1rem;
+  div{
+    display: inline;
   }
 }
 
@@ -260,27 +282,80 @@ footer{
   }
 
   .logo{
+    height: 2rem;
     width: 2rem;
-    margin: .5rem 0 0 .5rem;
+    margin: 1rem 0 0 .5rem;
   }
 
   header{
-    padding: 0px;
-    
-    p{
-      font-size: 2rem;
-      line-height: 2.5rem;
-      width: 100%;
+    padding: 1rem;
 
+    .cta-intro{
       .highlight{
-        font-family: 'museo-sans-rounded', sans-serif;
+        font-family: $rounded-font;
         font-weight: 900;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: #FADA28;
       }
-    }
-
+  
+      h1{
+        margin-bottom: 1.5rem;
+      }
+  
+      p{
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        line-height: 2.25rem;
+        .highlight{
+          color: #fff;
+          font-size: 1.5rem;
+          font-weight: 900;
+        }
+      }
+    } 
     
+    .cta-buttons{
+      display: flex;
+  
+      .first-button,
+      .second-button{
+        height: 2.5rem;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+        font-family: $sans-font;
+        font-size: .8rem;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+      .first-button{
+        width: 7.75rem;
+        margin-right: 1.5rem;
+        padding-left: .75rem;
+        img{
+          margin-right: .35rem;
+          height: 45%;
+          width: auto;
+        }
+      }
+  
+      .second-button{
+        width: 6.55rem;
+        padding-left: .3rem;
+        img{
+          height: 1.65rem;
+        }
+      }
+  
+      .first-button:hover,
+      .second-button:hover{
+        animation: 250ms fadeIn ease-in-out forwards;
+      }
+    }
   }
 
   main{
