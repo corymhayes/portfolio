@@ -55,6 +55,7 @@ header{
       margin: 0px;
       padding: 0px;
       color: #fff;
+      max-width: 1080px;
     }
 
     .highlight{
@@ -137,11 +138,15 @@ header{
 
 main{
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-mock-desc{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1440px;
 
   .app-mockup,
   .app-description{
@@ -185,6 +190,7 @@ main{
 .container-desc-mock{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1440px;
 
   .app-mockup,
   .app-description{
@@ -227,17 +233,24 @@ main{
 
 footer{
   height: 10rem;
-  padding: 0 10rem;
   background-color: rgba(0,0,0,.9);
   display: flex;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  font-family: $sans-font;
-  font-size: 1rem;
-  font-weight: 900;
-  color: #fff;
+  
+  .footer-logo{
+    img{
+      height: 2.5rem;
+    }
+  } 
 
+  .footer-links{
+    li{
+      display: inline;
+      color: #fff;
+    }
+  }
   a{
     color: #fff;
     font-family: $sans-font;

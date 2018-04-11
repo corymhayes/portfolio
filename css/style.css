@@ -37,7 +37,8 @@ header {
     line-height: 3rem;
     margin: 0px;
     padding: 0px;
-    color: #fff; }
+    color: #fff;
+    max-width: 1080px; }
   header .cta-intro .highlight {
     font-family: "museo-sans-rounded", sans-serif;
     font-weight: 900;
@@ -96,11 +97,15 @@ header {
   display: inline-block; }
 
 main {
-  margin-top: 50px; }
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .container-mock-desc {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  max-width: 1440px; }
   .container-mock-desc .app-mockup,
   .container-mock-desc .app-description {
     height: 100vh;
@@ -130,7 +135,8 @@ main {
 
 .container-desc-mock {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  max-width: 1440px; }
   .container-desc-mock .app-mockup,
   .container-desc-mock .app-description {
     height: 100vh;
@@ -160,16 +166,16 @@ main {
 
 footer {
   height: 10rem;
-  padding: 0 10rem;
   background-color: rgba(0, 0, 0, 0.9);
   display: flex;
-  align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
-  font-family: "museo-sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 900;
-  color: #fff; }
+  align-items: center;
+  flex-direction: column; }
+  footer .footer-logo img {
+    height: 2.5rem; }
+  footer .footer-links li {
+    display: inline;
+    color: #fff; }
   footer a {
     color: #fff;
     font-family: "museo-sans", sans-serif;
