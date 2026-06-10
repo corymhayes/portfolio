@@ -4,7 +4,7 @@
 
 <ProjectTemplate
 	title="job journal"
-	screenshot="job-journal.jpg"
+	screenshot="/job-journal.jpg"
 	demo="https://jobjournal.corymhayes-017.workers.dev/"
 	github="https://github.com/corymhayes/job-journal"
 	overview={[

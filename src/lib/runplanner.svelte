@@ -4,7 +4,7 @@
 
 <ProjectTemplate
 	title="run planner"
-	screenshot="running-planner.jpg"
+	screenshot="/running-planner.jpg"
 	demo="https://running-planner.corymhayes.com/"
 	github="https://github.com/corymhayes/running-planner"
 	overview={[

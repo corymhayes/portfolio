@@ -23,10 +23,9 @@
 			content="Full-stack developer building modern web applications."
 		/>
 		<meta name="twitter:image" content="https://corymhayes.com/logo.jpg" />
-		<title>Cory Hayes</title>
+		%sveltekit.head%
 	</head>
-	<body class="bg-neutral-50">
-		<div id="app"></div>
-		<script type="module" src="/src/main.ts"></script>
+	<body data-sveltekit-preload-data="hover" class="bg-neutral-50">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

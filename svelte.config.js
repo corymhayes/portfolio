@@ -1,2 +1,11 @@
 /** @type {import("@sveltejs/vite-plugin-svelte").SvelteConfig} */
-export default {};
+
+import adapter from "@sveltejs/adapter-auto";
+
+const config = {
+	kit: {
+		adapter: adapter()
+	}
+};
+
+export default config;

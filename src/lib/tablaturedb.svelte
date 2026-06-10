@@ -4,7 +4,7 @@
 
 <ProjectTemplate
 	title="tablaturedb"
-	screenshot="tablaturedb.jpg"
+	screenshot="/tablaturedb.jpg"
 	demo="https://tablaturedb.com"
 	github="https://github.com/corymhayes/tablaturedb"
 	overview={[
