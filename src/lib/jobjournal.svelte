@@ -12,13 +12,13 @@
 		"Full-text search and multi-field filtering across every entry field",
 		"JWT authentication with Neon Auth, role-based access",
 		"Responsive dashboard built with TanStack Table, Query, and Router",
-		"Server-rendered with Hone (Go) + Drizzle ORM on Cloudflare Workers"
+		"Server-rendered with Hono and Drizzle ORM on Cloudflare Workers"
 	]}
 	{stack}
 />
 
 {#snippet stack()}
-	<div class="grid grid-cols-2 gap-y-2">
+	<div class="grid grid-cols-2 gap-y-2 gap-x-2">
 		<div>
 			<span class="font-bold">Frontend</span>
 			<ul>
@@ -36,7 +36,7 @@
 		<div>
 			<span class="font-bold">Backend</span>
 			<ul>
-				<li>Hone</li>
+				<li>Hono</li>
 				<li>Drizzle ORM</li>
 				<li>Postgres</li>
 				<li>Zod</li>
@@ -55,8 +55,6 @@
 		</div>
 	</div>
 {/snippet}
-
-<!-- overview="Full-Stack application that can track, organize, and manage job applications through every stage of the hiring pipeline—all in one searchable, filterable dashboard." -->
 
 <style>
 	ul {

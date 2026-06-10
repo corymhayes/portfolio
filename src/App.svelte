@@ -20,10 +20,24 @@
 			<nav class="block w-full">
 				<ul class="flex items-center justify-evenly h-full">
 					<li>
-						<a href="#about" onclick={() => (navigation = "about")}>about</a>
+						<a
+							href="#about"
+							onclick={() => (navigation = "about")}
+							class={navigation === "about"
+								? "bg-neutral-950 text-neutral-50 p-2"
+								: "bg-neutral-50"}
+						>
+							about
+						</a>
 					</li>
 					<li>
-						<a href="#projects" onclick={() => (navigation = "projects")}>projects</a>
+						<a
+							href="#projects"
+							onclick={() => (navigation = "projects")}
+							class={navigation === "projects"
+								? "bg-neutral-950 text-neutral-50 p-2"
+								: "bg-neutral-50"}>projects</a
+						>
 					</li>
 					<li>
 						<a href="mailto:corymhayes@gmail.com">contact</a>
