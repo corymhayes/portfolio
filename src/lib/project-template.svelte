@@ -2,11 +2,11 @@
 	let { title, screenshot, demo, github, overview, stack } = $props();
 </script>
 
-<div class="flex items-center md:w-sm">
+<div class="flex items-center md:w-sm dark:text-neutral-100">
 	<div class="flex flex-col gap-8">
 		<div class="flex items-end justify-between mr-4">
 			<span
-				class="font-bold text-lg bg-neutral-950 w-full text-neutral-50 px-2 h-8 flex gap-2 items-center mr-4 pl-8"
+				class="font-bold text-lg bg-neutral-950 w-full text-neutral-100 dark:bg-neutral-100 dark:text-neutral-950 px-2 h-8 flex gap-2 items-center mr-4 pl-8"
 			>
 				{title.toUpperCase()}
 			</span>
@@ -20,7 +20,10 @@
 
 		<div class="px-4 sm:px-0 space-y-4">
 			<div class="space-y-2">
-				<span class="bg-neutral-950 w-fit text-neutral-50 px-4 py-1 block">overview</span>
+				<span
+					class="bg-neutral-950 w-fit text-neutral-100 dark:bg-neutral-100 dark:text-neutral-950 px-4 py-1 block"
+					>overview</span
+				>
 				<ul class="space-y-3 border-4 -mt-2 p-6 list-['-']">
 					{#each overview as item}
 						<li class="pl-1">{item}</li>
@@ -29,7 +32,10 @@
 			</div>
 
 			<div class="space-y-2">
-				<span class="bg-neutral-950 w-fit text-neutral-50 px-4 py-1 block">stack</span>
+				<span
+					class="bg-neutral-950 w-fit text-neutral-100 dark:bg-neutral-100 dark:text-neutral-950 px-4 py-1 block"
+					>stack</span
+				>
 				<div class="space-y-3 border-4 -mt-2 p-6">
 					{@render stack()}
 				</div>

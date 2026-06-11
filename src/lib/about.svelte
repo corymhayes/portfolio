@@ -4,10 +4,12 @@
 
 <div in:fly={{ y: 20, duration: 300 }}>
 	<div class="font-jetbrains flex flex-col md:w-sm gap-2">
-		<div class="bg-neutral-950 p-8 text-neutral-50 flex items-center w-fit">
-			<h1 class="text-3xl">Hi,<br />I’m <span class="-ml-2">Cory Hayes</span></h1>
+		<div
+			class="bg-neutral-950 p-8 text-neutral-100 dark:bg-neutral-100 dark:text-neutral-950 flex items-center w-fit"
+		>
+			<h1 class="text-3xl">Hi,<br />I’m <span class="-ml-2 font-bold">Cory Hayes</span></h1>
 		</div>
-		<div class="px-8 sm:px-4">
+		<div class="px-8 sm:px-4 dark:text-neutral-100">
 			<ul class="flex gap-4 my-4">
 				<li class="underline underline-offset-4">
 					<a href="/Hayes.Cory.Resume.2026.pdf" download>resume</a>
