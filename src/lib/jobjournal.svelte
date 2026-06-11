@@ -18,51 +18,40 @@
 />
 
 {#snippet stack()}
-	<div class="grid grid-cols-2 gap-y-2 gap-x-2">
+	<div class="grid grid-cols-2 gap-y-5 gap-x-5">
 		<div>
-			<span class="font-bold">Frontend</span>
-			<ul>
-				<li>React 19 & Vite</li>
-				<li>shadcn/ui</li>
-				<li>Tailwind</li>
-				<li>TanStack Form</li>
-				<li>TanStack Query</li>
-				<li>TanStack Router</li>
-				<li>TanStack Table</li>
-				<li>Zod</li>
+			<span class="font-bold -ml-2">Frontend</span>
+			<ul class="list-['-'] space-y-1">
+				<li class="pl-1">React 19 & Vite</li>
+				<li class="pl-1">shadcn/ui</li>
+				<li class="pl-1">Tailwind</li>
+				<li class="pl-1">TanStack Form</li>
+				<li class="pl-1">TanStack Query</li>
+				<li class="pl-1">TanStack Router</li>
+				<li class="pl-1">TanStack Table</li>
+				<li class="pl-1">Zod</li>
 			</ul>
 		</div>
 
 		<div>
-			<span class="font-bold">Backend</span>
-			<ul>
-				<li>Hono</li>
-				<li>Drizzle ORM</li>
-				<li>Postgres</li>
-				<li>Zod</li>
-				<li>Jose</li>
+			<span class="font-bold -ml-2">Backend</span>
+			<ul class="list-['-'] space-y-1">
+				<li class="pl-1">Hono</li>
+				<li class="pl-1">Drizzle ORM</li>
+				<li class="pl-1">Postgres</li>
+				<li class="pl-1">Zod</li>
+				<li class="pl-1">Jose</li>
 			</ul>
 		</div>
 
 		<div>
-			<span class="font-bold">Services</span>
-			<ul>
-				<li>Cloudflare Workers</li>
-				<li>Hyperdrive</li>
-				<li>Neon</li>
-				<li>Neon Auth</li>
+			<span class="font-bold -ml-2">Services</span>
+			<ul class="list-['-'] space-y-1">
+				<li class="pl-1">Cloudflare Workers</li>
+				<li class="pl-1">Hyperdrive</li>
+				<li class="pl-1">Neon</li>
+				<li class="pl-1">Neon Auth</li>
 			</ul>
 		</div>
 	</div>
 {/snippet}
-
-<style>
-	ul {
-		list-style-type: "-";
-		margin-left: 10px;
-	}
-
-	li {
-		padding-left: 5px;
-	}
-</style>
